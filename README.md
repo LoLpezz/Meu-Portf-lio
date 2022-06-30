@@ -6,7 +6,7 @@
 <p>Esse é o meu Portifolio que está quase finalizado, mas em desenvolvimento ainda enquanto realiso o curso da Alura onde foi ensinado tecnologias como: <br>
 - HTML <br>
 - CSS <br>  
-- JavaScript <br>
+- JavaScript vai ser utilizado em breve, ainda estou finalizando o layout <br>
 
 Também foi utilizado ferramentas como: <br>
 - Figma <br>
