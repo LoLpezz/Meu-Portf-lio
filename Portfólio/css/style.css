@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{min-height: 100vh;}
+
+/*CABEÇALHO*/
+header{
+    background: #00d49f;
+    padding: 10px;
+}
+
+.cabecalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo-title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+nav{
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.item {
+    text-transform: uppercase;
+}
+
+/*CONTEUDO PRINCIPAL*/
+.conteudo-principal{
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;   
+}
+
+.title2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.ct{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.foto{
+    float: right;
+}
+
+.pic{
+    width: 300px;
+    margin: 0 20px 20px 0;
+    float: right;
+}
+
+.tl-main{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.pf-1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 22px;
+}    
+
+ul{
+    margin-top: 30px;
+}
+
+li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+.item2{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.button{
+    background-color: #00d49f;
+    color: white;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+
+/*SOBRE MIM*/
+.conteudo-secundario{
+    padding: 68px;
+    background-color: #b9ffcd;
+}
+
+.abt-me{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.title3{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.pf-2{
+    font-size: 16px;
+    margin: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*SKILLS*/
+.container{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-itens2{
+    display: flex;
+}
+
+.item3{
+    width: 100px;
+    height: 90px;
+    border: solid 1px black;
+    padding: 16px;
+    margin: 0 16px;
+}
+
+.title-sh{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    margin: 32px 0;
+}
+
+.icon{
+    width: 2em;
+}
+
+/*FORMAÇÃO ACADEMICA*/
+#graduation{
+    background-color: #b9ffcd;
+    height: 500px;
+}
+
+.grt-cont{
+    width: 940px;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.title4{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 32px 0;
+    padding: 20px;
+}
+
+.card-group{
+    height: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-body{
+    background: #eaf2fd;
+    margin: 0 auto;
+}
+
+.card-title{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-text{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*CONTATO*/
+#container-contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    padding: 64px;
+}
+
+.img-contact{
+    width: 340px;
+    height: 455px;
+}
+
+.txt-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title-contact{
+    font-size: 32px;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 700;
+}
+
+.txt-line{
+    font-size: 16px;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 500;
+}
+
+.btn-submit{
+    width: 165px;
+    height: 51px;
+    background-color: #b9ffcd;
+    font-size: 16px;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 400;
+    border: none;
+}
+
+.ipt-form{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+/*FOOTER*/
+#ft-ct{
+    height: 102px;
+    background-color: #b9ffcd;
+    justify-content: center;
+}
+
+.ft-pr{
+    text-align: center;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 16px;
+    padding-top: 40px;
+}
