@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/exibirNaTela.js"></script>
     <title>Meu Portifolio</title>    
 </head>
 <header>
@@ -19,12 +20,13 @@
                 <li class="item"><a href="#skills">Skill</a></li>
                 <li class="item"><a href="#hobbies">Hobbies</a></li>
                 <li class="item"><a href="#formacao">Formação</a></li>
-                <li class="item"><a href="#">Projetos</a></li>
+                <li class="item"><a href="#projetos">Projetos</a></li>
                 <li class="item"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
 <!--CONTEUDO-PRINCIPAL-->
 <main>
     <section class="conteudo-principal">
@@ -34,15 +36,16 @@
         <div class="tl-main">    
             <h1 class="title2">Olá, meu nome é Maicon Lopes e construo páginas web</h1>
             <p class="pf-1">Eu estou cursando Analise e Desenvolvimento de Sistema e atualmente
-                estou participando no projeto Oracle ONE na Alura.
+                estou usando meu tempo livre para estudar programação Front-End.
             </p>
             <ul>
-                <li class="item2"><a class="button" href="https://github.com/LoLpezz">Github</a></li>
-                <li class="item2"><a class="button" href="https://www.linkedin.com/in/maicon-lopes-de-barros-quadros-573828210/">Linkedin</a></li>
-                <li class="item2"><a class="button" href="Maicon Lopes de Barros Quadros.pdf">Curriculo</a></li>
+                <li class="item2"><a class="button" target="_blank" href="https://github.com/LoLpezz">Github</a></li>
+                <li class="item2"><a class="button" target="_blank" href="https://www.linkedin.com/in/maicon-lopes-de-barros-quadros-573828210/">Linkedin</a></li>
+                <li class="item2"><a class="button" target="_blank" href="Maicon Lopes de Barros Quadros.pdf">Curriculo</a></li>
             </ul> 
         </div>
     </section>
+
     <!--CONTEUDO-SECUNDARIO-->
     <section class="conteudo-secundario">
         <div class="abt-me">
@@ -59,6 +62,7 @@
     </section>
     <section class="skill-hobbies">
         <div class="container">
+
             <!--SKILLS-->
             <h3 id="skills" class="title-sh">Skills</h3>
             <ul class="list-itens2">
@@ -87,6 +91,7 @@
                     <p>Git & Github</p>
                 </li>
             </ul>
+
         <!--HOBBIES-->
             <h3 id="hobbies" class="title-sh">Hobbies</h3>
             <ul class="list-itens2">
@@ -100,11 +105,11 @@
                 </li>
                 <li class="item3">
                     <img class="icon" src="img/video-game.png" alt="">
-                    <p>Jogar Video Games</p>
+                    <p>Jogar Video Game</p>
                 </li>
                 <li class="item3">
                     <img class="icon" src="img/levantamento-de-peso.png" alt="">
-                    <p>Musculção</p>
+                    <p>Musculação</p>
                 </li>
                 <li class="item3">
                     <img class="icon" src="img/basquetebol.png" alt="">
@@ -117,6 +122,7 @@
             </ul>
         </div>
     </section>
+
     <!--FORMAÇÃO-->
     <section id="graduation">
             <h1 id="formacao" class="title4">Formação acadêmica</h1>
@@ -127,6 +133,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Analise e Des. de Sistemas</h5>
                         <p class="card-text">2022 - Cursando</p>
+                        <p>Formatura: Janeiro/2024</p>
                     </div>
                 </div>
                 <div class="card">
@@ -139,13 +146,38 @@
                 <div class="card">
                     <img class="card-img" src="img/senai-2.jpg" alt="Logo da escola SENAI">
                     <div class="card-body">
-                        <h5 class="card-title">Programação Front-End</h5>
+                        <h5 class="card-title">Programador Front-End</h5>
                         <p class="card-text">2021 - 350 horas</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--PROJETOS-->
+    <section id="projetos">
+        <h1 class="title-projects">Projetos recentes</h1>
+        <div class="card-proj">
+            <img src="img/jogaDaCobrinha.gif" alt="Gif animado do jogo da cobrinha">
+            <div class="cd-proj-txt">
+                <h2 class="tlt-cd">Jogo da snake</h2>
+                <p class="txt-cd">Esse jogo foi desenvolvido enquanto eu participava do bootcamp HTML Web Developer da Digital Innovation One,
+                    as tecnologias utilizadas foram:
+                </p>
+                <div>
+                    <ul class="list-tecno">
+                        <li class="item-tecno">- HTML</li>
+                        <li class="item-tecno">- CSS</li>
+                        <li class="item-tecno">- Javascript</li>
+                    </ul>
+
+                    <button class="btn-proje"><a href="https://github.com/LoLpezz/Jogo-da-Cobrinha-DIO" target="_blank">Repositório</a></button>
+                    <button class="btn-proje"><a href="https://nake-snake-game.netlify.app/" target="_blank">Demo</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--CONTATO-->
     <section id="container-contact">
         <div class="box-content">
@@ -153,30 +185,38 @@
             <div class="txt-form">
                     <h1 id="contato" class="title-contact">Contato</h1>
                     <p class="txt-line">Quer entrar em contato comigo?</p>
-                    <p class="txt-line">Preencha o formulário ao lado e entrarei em contato o mais rápido possivel.</p>
+                    <p class="txt-line">Preencha o formulário abaixo e entrarei em contato o mais rápido possivel.</p>
                 
-                <form class="form-box">
+                <form class="form-box" action="" method="post" name="dados">
                     <label class="lb-form" for="name"></label>
-                    <input class="ipt-form" placeholder="Nome" type="text" id="name">
+                    <input class="ipt-form" placeholder="Nome" type="text" required name="nome" id="name">
 
                     <label class="lb-form" for="email"></label>
-                    <input class="ipt-form" placeholder="E-mail" type="email" id="email">
+                    <input class="ipt-form" placeholder="E-mail" type="email" required email="email" id="email">
 
                     <label class="lb-form" for="object"></label>
                     <input class="ipt-form" placeholder="Assunto" type="text" id="object">
 
                     <textarea placeholder="Mensagem" name="textarea" id="textarea" cols="50" rows="4"></textarea>
-                    <button class="btn-submit">Enviar</button>
+                    <button id="btn-submit">Enviar</button>
                 </form>
                     
             </div>
         </div>
     </section>
-
+    
+    <!--RODA-PÉ-->
     <footer id="ft-ct">
         <p class="ft-pr">Desenvolvido por Maicon Lopes <br> 2022</p>
     </footer>
+
+    <!--BACK-TP-TOP-->
+    <a id="back-to-top" href="#" class="visible">
+        <img id="top-icon" class="gone" src="img/icons-arrow.png" alt="">
+    </a>
+
 </main>
 
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
