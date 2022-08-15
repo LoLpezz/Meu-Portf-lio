@@ -1,6 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body{min-height: 100vh;}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+:target{
+    scroll-margin-top: .8m;
+}
+
+body{min-height: 100vh;
+    font-size: 1.25rem;
+}
 
 /*CABEÇALHO*/
 header{
@@ -9,20 +20,17 @@ header{
 }
 
 .cabecalho{
-    width: 940px;
-    position: relative;
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 .logo-title{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-}
-
-nav{
-    position: absolute;
-    top: 35px;
-    right: 0;
+    font-family:'Poppins', 'sans-serif';
+    font-size: 2.5rem;
 }
 
 nav li {
@@ -31,7 +39,7 @@ nav li {
 }
 
 nav a{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family:'Poppins', 'sans-serif';
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -49,13 +57,14 @@ nav a{
 }
 
 .title2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 41px;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 2.56rem;
     font-weight: bold;
 }
 
 .ct{
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -70,14 +79,15 @@ nav a{
 }
 
 .tl-main{
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .pf-1{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.938rem;
+    font-family: 'Poppins', sans-serif;
     margin-top: 22px;
 }    
 
@@ -91,8 +101,8 @@ li{
 }
 
 .item2{
-    font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.12rem;
+    font-family: 'Poppins', sans-serif ;
 }
 
 li a {
@@ -101,13 +111,12 @@ li a {
 
 .button{
     background-color: #00d49f;
-    color: white;
-    border: 1px solid ;
+    color: black;
     border-radius: 10px;
     padding: 10px 22px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 4px 2px;
     cursor: pointer;
 } 
@@ -119,26 +128,28 @@ li a {
 }
 
 .abt-me{
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
 }
 
 .title3{
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin: 16px 0;
 }
 
 .pf-2{
-    font-size: 16px;
+    font-size: 1rem;
     margin: 16px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*SKILLS*/
 .container{
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
     text-align: center;
 }
@@ -156,10 +167,10 @@ li a {
 }
 
 .title-sh{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     margin: 32px 0;
 }
 
@@ -174,14 +185,15 @@ li a {
 }
 
 .grt-cont{
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
     height: 250px;
 }
 
 .title4{
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 32px 0;
@@ -208,24 +220,90 @@ li a {
 }
 
 .card-body{
-    background: #eaf2fd;
     margin: 0 auto;
 }
 
 .card-title{
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.37rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card-text{
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*PROJETOS*/
+#projetos{
+    
+}
+
+.card-proj{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-projects{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+.tlt-cd{
+    font-size: 1.37rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+.txt-cd{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.12rem;
+    margin-left: 10px;
+}
+
+li{
+    margin: 5px 0px;
+}
+
+.list-tecno{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.btn-proje{
+    background-color: #04d49c;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 120px;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*CONTATO*/
 #container-contact{
     display: flex;
     flex-direction: row;
+    background: #b9ffcd;
 }
 
 .box-content{
@@ -238,7 +316,7 @@ li a {
 }
 
 .img-contact{
-    width: 340px;
+    width: 330px;
     height: 455px;
 }
 
@@ -255,44 +333,99 @@ li a {
 }
 
 .title-contact{
-    font-size: 32px;
-    font-family: 'Raleway', 'sans-serif';
+    font-size: 2rem;
+    font-family: 'Poppins', 'sans-serif';
     font-weight: 700;
 }
 
 .txt-line{
-    font-size: 16px;
-    font-family: 'Raleway', 'sans-serif';
+    font-size: 1rem;
+    font-family: 'Poppins', 'sans-serif';
     font-weight: 500;
 }
 
-.btn-submit{
+#textarea{
+    font-size: 1rem;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+}
+
+#btn-submit{
     width: 165px;
     height: 51px;
-    background-color: #b9ffcd;
-    font-size: 16px;
-    font-family: 'Raleway', 'sans-serif';
-    font-weight: 400;
+    background-color: lightskyblue;
+    font-size: 1rem;
+    font-family: 'Poppins', 'sans-serif';
     border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .ipt-form{
     height: 40px;
     border-radius: 4px;
     border: 1px solid;
-    font-family: 'Raleway', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
 }
 
 /*FOOTER*/
 #ft-ct{
     height: 102px;
-    background-color: #b9ffcd;
+    background-color: white;
     justify-content: center;
 }
 
 .ft-pr{
     text-align: center;
-    font-family: 'Raleway', 'sans-serif';
-    font-size: 16px;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1rem;
     padding-top: 40px;
+    color: black;
+    font-weight: 500;
+}
+
+/*BACK-TO-TOP*/
+
+#top-icon{
+    position: fixed;
+    z-index: 1010;
+    bottom: 20px;
+    right: 40px;
+    cursor: pointer;
+}
+
+/*MEDIA QUERIES, recebe propriedades de algumas definições*/
+@media (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 630px){
+    .hero .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero .container img{
+        order: -1;
+    }
+}
+
+@media (max-width: 540px){
+    nav {
+        display: none;
+    }
+
+    .item{
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-top: 20px;
+    }
 }
