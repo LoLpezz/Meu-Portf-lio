@@ -1,0 +1,85 @@
+.box{
+    padding: 60px;
+}
+
+.navbar-brand p{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.1);
+    border-color: rgba(0,0,0,.1);
+    border: 5px solid;
+}
+
+.title{
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+.img-tec{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.img-fluid{
+    width: 300px;
+    height: 100%;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+
+  /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn-group-sm>.btn, .btn-sm{
+        font-size: .825rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+ }
