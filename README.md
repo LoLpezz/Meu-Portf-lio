@@ -3,16 +3,20 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"> 
 </p>
 
-<p>Este é o meu Portifolio que está praticamente finalizado, falta alguns ajustes que com o tempo de estudo e pratica vou corrigir, e as tecnologias utilziadas forão: <br>
-- HTML <br>
-- CSS / Bootstrap <br>  
-- JavaScript<br>
+<p>
+ Este é o meu Portifolio que está praticamente finalizado, falta alguns ajustes que com o tempo de estudo e pratica vou corrigir, e as tecnologias utilziadas forão:
+</p>
+ 
+ <ul>
+<li>HTML</li>
+<li>CSS / Bootstrap</li>
+<li>JavaScript</li>
+</ul> 
  
 <p>Também foi utilizado ferramentas como:</p>
 <ul>
   <li>Figma</li>
   <li>Trello</li>
-</p>
 </ul>
 
 <p>Abaixo segue uma imagem de como está e também o link para acessar.</p>
