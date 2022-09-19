@@ -13,6 +13,9 @@ Também foi utilizado ferramentas como: <br>
 - Trello
 </p>
 
+Abaixo segue uma imagem de como está e também o link para acessar.
+Link: https://maicon-lopezz-pt.netlify.app/
+
 <p>
   <img src="https://github.com/LoLpezz/Meu-Portf-lio/blob/main/Portfolio.PNG">
 </p>
