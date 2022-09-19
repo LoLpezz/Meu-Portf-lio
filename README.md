@@ -4,13 +4,13 @@
 </p>
 
 <p>
- Este é o meu Portifolio que está praticamente finalizado, falta alguns ajustes que com o tempo de estudo e pratica vou corrigir, e as tecnologias utilziadas forão:
+ Este é o meu Portfolio que está praticamente finalizado, falta alguns ajustes que com o tempo de estudo e pratica vou corrigir, e as tecnologias utilziadas forão:
 </p>
  
  <ul>
 <li>HTML</li>
-<li>CSS / Bootstrap</li>
-<li>JavaScript</li>
+<li>CSS / Bootstrap para a responsividade</li>
+<li>JavaScript para o botão back to top / voltar ao topo</li>
 </ul> 
  
 <p>Também foi utilizado ferramentas como:</p>
