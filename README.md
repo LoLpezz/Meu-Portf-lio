@@ -3,10 +3,10 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"> 
 </p>
 
-<p>Esse é o meu Portifolio que está quase finalizado, mas em desenvolvimento ainda enquanto realiso o curso da Alura onde foi ensinado tecnologias como: <br>
+<p>Este é o meu Portifolio que está praticamente finalizado, falta alguns ajustes que com o tempo de vou corrigindo, as tecnologias utilziadas forão: <br>
 - HTML <br>
-- CSS <br>  
-- JavaScript vai ser utilizado em breve, ainda estou finalizando o layout <br>
+- CSS / Bootstrap <br>  
+- JavaScript<br>
 
 Também foi utilizado ferramentas como: <br>
 - Figma <br>
@@ -14,5 +14,5 @@ Também foi utilizado ferramentas como: <br>
 </p>
 
 <p>
-  <img src="https://github.com/LoLpezz/Meu-Portf-lio/blob/main/Port.png">
+  <img src="">
 </p>
