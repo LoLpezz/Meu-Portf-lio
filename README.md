@@ -7,11 +7,11 @@
 - HTML <br>
 - CSS / Bootstrap <br>  
 - JavaScript<br>
-  
-<ul>
+ 
 <p>Também foi utilizado ferramentas como:</p>
-<li>Figma</li>
-<li>Trello</li>
+<ul>
+  <li>Figma</li>
+  <li>Trello</li>
 </p>
 </ul>
 
